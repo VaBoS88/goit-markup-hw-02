@@ -1,92 +1,159 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: rgb(21, 21, 21);   
+}
+
+
+
+/*HEADER*/
+.header-nav a {
     color: rgb(21, 21, 21);
 }
-
-.logo {
-    font-family: "raleway";
-    font-weight: 700;
-}
-
-/*kolor tekstu do 'a' - header*/
-a {
-    color: rgb(21, 21, 21);
-    text-decoration: none;
-}
-
-/*kolor tekstu a(kontakt) - header*/
-a.kontakt1,
-a.kontakt2 {
+.header-contact {
     color: rgb(117, 117, 117);
 }
+.header a, .footer a {
+    text-decoration: none;
+}
+/*HEADER*/
 
-/*Elementy interaktywne*/
+
+
+/**/
 a.active,
 a:hover {
     color: rgb(33, 150, 243);
 }
-
-/*Przyciski*/
 button {
     color: rgb(21, 21, 21);
     background-color: rgb(245, 244, 250);
     border: none;
     cursor: pointer;
 }
-
 button:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(33, 150, 243);
 }
-button:focus, a:focus {
+button:focus,
+a:focus {
     color: rgb(255, 255, 255);
     background-color: rgb(33, 150, 243);
 }
+/**/
 
-/*Logotyp header i footer*/
-.part1 {
+
+
+/*LOGO*/
+.header-logo-blue {
     color: rgb(33, 150, 243);
 }
-
-.part2 {
-    color: black;
+.footer-logo-blue {
+    color: rgb(33, 150, 243);
 }
-
-.part3 {
+.header-logo-black {
+    color: rgb(0, 0, 0);
+}
+.footer-logo-white {
     color: rgb(255, 255, 255);
 }
-
-/*Kolory tekstu pod zdjięciami*/
-h3 {
-    color: rgb(21, 21, 21);
+.logo {
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 31px;
+    font-family: 'Raleway';
 }
+/*LOGO*/
 
-p {
+/**/
+.main-filtr-button {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+/**/
+
+/**/
+.main-filtr-list h3 {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+.main-filtr-list p {
     color: rgb(117, 117, 117);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
 }
+/**/
 
-/*Koloty footer*/
-footer {
+
+
+/*FOOTER*/
+.footer {
     background-color: rgb(47, 48, 58);
 }
-
-.adres {
+.footer-contact {
     color: rgb(255, 255, 255);
 }
-
-.adres a {
+.footer-contact a {
     color: rgb(255, 255, 255);
     opacity: 0.6;
 }
-
-.adres a:hover {
+.footer-contact a:hover {
     color: rgb(33, 150, 243);
 }
+/*FOOTER*/
 
-/*agencja*/
-.first {
+
+
+/*main-start-page*/
+.main-start-page-section1 {
     background-color: rgb(47, 48, 58);
+}
+.main-start-page-section1 h1 {
     color: rgb(255, 255, 255);
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+}
+.main-start-page-section1 button {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 150, 243);
+}
+.main-start-page-section2-lorem h3 {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+.main-start-page-section2-lorem p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgb(117, 117, 117);
+}
+.main-start-page-section3-img h2 {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+.main-start-page-section4-team h2 {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+.main-start-page-section4-team h3 {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.main-start-page-section4-team p {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgb(117, 117, 117);
 }
 
 ul {
