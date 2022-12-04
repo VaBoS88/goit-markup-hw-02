@@ -58,26 +58,26 @@ a:focus {
 .logo {
     font-size: 26px;
     letter-spacing: 0.03em;
-    line-height: 31px;
+    line-height: 1.19em;
     font-family: 'Raleway';
 }
 
 .main-filtr-button {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.63em;
     letter-spacing: 0.03em;
 }
 
-.main-filtr-list h3 {
+.main-filtr-list-title {
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2em;
     letter-spacing: 0.06em;
 }
 
-.main-filtr-list p {
+.main-filtr-list-type {
     color: rgb(117, 117, 117);
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88em;
     letter-spacing: 0.03em;
 }
 
@@ -105,13 +105,13 @@ a:focus {
 .main-start-page-section1 h1 {
     color: rgb(255, 255, 255);
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36em;
     letter-spacing: 0.06em;
 }
 
 .main-start-page-section1 button {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88em;
     letter-spacing: 0.06em;
     color: rgb(255, 255, 255);
     background-color: rgb(33, 150, 243);
@@ -119,38 +119,38 @@ a:focus {
 
 .main-start-page-section2-lorem h3 {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14em;
     letter-spacing: 0.03em;
 }
 
 .main-start-page-section2-lorem p {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71em;
     letter-spacing: 0.03em;
     color: rgb(117, 117, 117);
 }
 
 .main-start-page-section3-img h2 {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17em;
     letter-spacing: 0.03em;
 }
 
 .main-start-page-section4-team h2 {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17em;
     letter-spacing: 0.03em;
 }
 
 .main-start-page-section4-team h3 {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19em;
     letter-spacing: 0.03em;
 }
 
 .main-start-page-section4-team p {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19em;
     letter-spacing: 0.03em;
     color: rgb(117, 117, 117);
 }
