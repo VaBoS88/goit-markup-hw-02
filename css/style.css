@@ -1,14 +1,25 @@
-body {
-    font-family: "Roboto", sans-serif;
-    color: rgb(21, 21, 21);
+:root {
+    --black-color: rgb(21, 21, 21);
+    --logoblack-color: rgb(0, 0, 0);
+    --gray-color: rgb(117, 117, 117);
+    --blue-color: rgb(33, 150, 243);
+    --white-color: rgb(255, 255, 255);
+    --white-button-color: rgb(245, 244, 250);
+    --graybackground-color: rgb(47, 48, 58);
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--black-color);
+}
+
+
 .header-nav a {
-    color: rgb(21, 21, 21);
+    color: var(--black-color);
 }
 
 .header-contact {
-    color: rgb(117, 117, 117);
+    color: var(--gray-color);
 }
 
 .header a,
@@ -18,41 +29,41 @@ body {
 
 a.active,
 a:hover {
-    color: rgb(33, 150, 243);
+    color: var(--blue-color);
 }
 
 button {
-    color: rgb(21, 21, 21);
-    background-color: rgb(245, 244, 250);
+    color: var(--black-color);
+    background-color: var(--white-button-color);
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(33, 150, 243);
+    color: var(--white-color);
+    background-color: var(--blue-color);
 }
 
 button:focus,
 a:focus {
-    color: rgb(255, 255, 255);
-    background-color: rgb(33, 150, 243);
+    color: var(--white-color);
+    background-color: var(--blue-color);
 }
 
 .header-logo-blue {
-    color: rgb(33, 150, 243);
+    color: var(--blue-color);
 }
 
 .footer-logo-blue {
-    color: rgb(33, 150, 243);
+    color: var(--blue-color);
 }
 
 .header-logo-black {
-    color: rgb(0, 0, 0);
+    color: var(--logoblack-color);
 }
 
 .footer-logo-white {
-    color: rgb(255, 255, 255);
+    color: var(--white-color);
 }
 
 .logo {
@@ -75,35 +86,35 @@ a:focus {
 }
 
 .main-filtr-list-type {
-    color: rgb(117, 117, 117);
+    color: var(--gray-color);
     font-size: 16px;
     line-height: 1.88em;
     letter-spacing: 0.03em;
 }
 
 .footer {
-    background-color: rgb(47, 48, 58);
+    background-color: var(--graybackground-color);
 }
 
 .footer-contact {
-    color: rgb(255, 255, 255);
+    color: var(--white-color);
 }
 
 .footer-contact a {
-    color: rgb(255, 255, 255);
+    color: var(--white-color);
     opacity: 0.6;
 }
 
 .footer-contact a:hover {
-    color: rgb(33, 150, 243);
+    color: var(--blue-color);
 }
 
 .main-start-page-section1 {
-    background-color: rgb(47, 48, 58);
+    background-color: var(--graybackground-color);
 }
 
 .main-start-page-section1-title {
-    color: rgb(255, 255, 255);
+    color: var(--white-color);
     font-size: 44px;
     line-height: 1.36em;
     letter-spacing: 0.06em;
@@ -113,8 +124,8 @@ a:focus {
     font-size: 16px;
     line-height: 1.88em;
     letter-spacing: 0.06em;
-    color: rgb(255, 255, 255);
-    background-color: rgb(33, 150, 243);
+    color: var(--white-color);
+    background-color: var(--blue-color);
 }
 
 .main-start-page-section2-lorem-title {
@@ -127,7 +138,7 @@ a:focus {
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
-    color: rgb(117, 117, 117);
+    color: var(--gray-color);
 }
 
 .main-start-page-section3-img-title {
@@ -152,7 +163,7 @@ a:focus {
     font-size: 16px;
     line-height: 1.19em;
     letter-spacing: 0.03em;
-    color: rgb(117, 117, 117);
+    color: var(--gray-color);
 }
 
 ul {
