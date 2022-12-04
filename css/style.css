@@ -32,14 +32,14 @@ a:hover {
     color: var(--blue-color);
 }
 
-button {
+.main-filtr-buttons, .main-start-page-section1-button {
     color: var(--black-color);
     background-color: var(--white-button-color);
     border: none;
     cursor: pointer;
 }
 
-button:hover {
+.main-filtr-buttons:hover {
     color: var(--white-color);
     background-color: var(--blue-color);
 }
