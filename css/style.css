@@ -102,14 +102,14 @@ a:focus {
     background-color: rgb(47, 48, 58);
 }
 
-.main-start-page-section1 h1 {
+.main-start-page-section1-title {
     color: rgb(255, 255, 255);
     font-size: 44px;
     line-height: 1.36em;
     letter-spacing: 0.06em;
 }
 
-.main-start-page-section1 button {
+.main-start-page-section1-button {
     font-size: 16px;
     line-height: 1.88em;
     letter-spacing: 0.06em;
@@ -117,38 +117,38 @@ a:focus {
     background-color: rgb(33, 150, 243);
 }
 
-.main-start-page-section2-lorem h3 {
+.main-start-page-section2-lorem-title {
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.03em;
 }
 
-.main-start-page-section2-lorem p {
+.main-start-page-section2-lorem-description {
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
     color: rgb(117, 117, 117);
 }
 
-.main-start-page-section3-img h2 {
+.main-start-page-section3-img-title {
     font-size: 36px;
     line-height: 1.17em;
     letter-spacing: 0.03em;
 }
 
-.main-start-page-section4-team h2 {
+.main-start-page-section4-team-name {
     font-size: 36px;
     line-height: 1.17em;
     letter-spacing: 0.03em;
 }
 
-.main-start-page-section4-team h3 {
+.main-start-page-section4-team-title {
     font-size: 16px;
     line-height: 1.19em;
     letter-spacing: 0.03em;
 }
 
-.main-start-page-section4-team p {
+.main-start-page-section4-team-position {
     font-size: 16px;
     line-height: 1.19em;
     letter-spacing: 0.03em;
