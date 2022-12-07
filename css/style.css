@@ -27,12 +27,13 @@ body {
     text-decoration: none;
 }
 
-a.active,
-a:hover {
+.list a:hover,
+.header-contact:hover {
     color: var(--blue-color);
 }
 
-.main-filtr-buttons, .main-start-page-section1-button {
+.main-filtr-buttons,
+.main-start-page-section1-button {
     color: var(--black-color);
     background-color: var(--white-button-color);
     border: none;
@@ -40,12 +41,6 @@ a:hover {
 }
 
 .main-filtr-buttons:hover {
-    color: var(--white-color);
-    background-color: var(--blue-color);
-}
-
-button:focus,
-a:focus {
     color: var(--white-color);
     background-color: var(--blue-color);
 }
@@ -166,6 +161,9 @@ a:focus {
     color: var(--gray-color);
 }
 
-ul {
+.header ul,
+.main-filtr ul,
+.footer ul,
+.main-start-page ul {
     list-style-type: none;
 }
