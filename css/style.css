@@ -163,9 +163,6 @@ body {
     color: var(--gray-color);
 }
 
-.header ul,
-.main-filtr ul,
-.footer ul,
-.main-start-page ul {
+.list {
     list-style-type: none;
 }
