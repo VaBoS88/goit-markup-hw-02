@@ -13,7 +13,7 @@ body {
     color: var(--black-color);
 }
 
-.header-list {
+.header-link {
     color: var(--black-color);
 }
 
@@ -21,15 +21,15 @@ body {
     color: var(--gray-color);
 }
 
-.header-list,
+.header-link,
 .logo,
 .footer,
 .header-contact,
-.footer-list {
+.footer-link {
     text-decoration: none;
 }
 
-.header-list:hover,
+.header-link:hover,
 .header-contact:hover {
     color: var(--blue-color);
 }
@@ -97,12 +97,12 @@ body {
     color: var(--white-color);
 }
 
-.footer-contact a {
+.footer-link {
     color: var(--white-color);
     opacity: 0.6;
 }
 
-.footer-contact a:hover {
+.footer-link:hover {
     color: var(--blue-color);
 }
 
@@ -169,5 +169,3 @@ body {
 .main-start-page ul {
     list-style-type: none;
 }
-
-list
