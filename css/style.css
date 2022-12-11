@@ -13,8 +13,7 @@ body {
     color: var(--black-color);
 }
 
-
-.header-nav a {
+.header-list {
     color: var(--black-color);
 }
 
@@ -22,12 +21,15 @@ body {
     color: var(--gray-color);
 }
 
-.header a,
-.footer a {
+.header-list,
+.logo,
+.footer,
+.header-contact,
+.footer-list {
     text-decoration: none;
 }
 
-.list a:hover,
+.header-list:hover,
 .header-contact:hover {
     color: var(--blue-color);
 }
@@ -167,3 +169,5 @@ body {
 .main-start-page ul {
     list-style-type: none;
 }
+
+list
